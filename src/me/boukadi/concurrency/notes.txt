@@ -19,7 +19,7 @@ Topics:
 	CPUs 3adna fihom bzaf cores ya3ni we have to utilize them for better performance
 	
 	ex: ila 3adna five clients kaysiftou requests li wahd servlet instance, andiro 5 threads 
-	one for each client
+	one for each client (this is how its handled behind the scenes)
 	
 2- (check out TestNotifyViaEmail.java & NotifyViaEmail.java)
 

@@ -1,4 +1,4 @@
-package me.boukadi.exceptions;
+package com.salahbkd.advanced.exceptions;
 
 public class SoldeMakafichException extends Exception {
 	

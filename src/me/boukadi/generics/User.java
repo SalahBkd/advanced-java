@@ -1,4 +1,4 @@
-package me.boukadi.generics;
+package com.salahbkd.advanced.generics;
 
 public class User implements Comparable<User> { // note we are passing User type as argument
 												// to avoid explicit casting.

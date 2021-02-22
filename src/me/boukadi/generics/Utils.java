@@ -1,4 +1,4 @@
-package me.boukadi.generics;
+package com.salahbkd.advanced.generics;
 
 import java.util.List;
 

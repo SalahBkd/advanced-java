@@ -1,4 +1,4 @@
-package me.boukadi.streams;
+package com.salahbkd.advanced.streams;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class TestProduct {
 		products.add(new Product("b", 99));
 		products.add(new Product("c", 89));
 		
-		/*
+
 		// Imperative programming
 		int count = 0;
 		for(Product product : products) 
@@ -82,8 +82,7 @@ public class TestProduct {
 				.distinct()
 				.peek((price) -> System.out.println("distincted" + price))
 				.forEach((price) -> System.out.println(price));
-		
-		*/
+
 		// REDUCING
 		
 		// simple reducers

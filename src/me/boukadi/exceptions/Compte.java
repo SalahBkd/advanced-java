@@ -1,4 +1,4 @@
-package me.boukadi.exceptions;
+package com.salahbkd.advanced.exceptions;
 
 public class Compte {
 	private float balance = 0;

@@ -1,4 +1,4 @@
-package me.boukadi.collections;
+package com.salahbkd.advanced.collections;
 
 import java.util.Iterator;
 

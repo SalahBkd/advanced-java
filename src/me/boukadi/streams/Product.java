@@ -1,4 +1,4 @@
-package me.boukadi.streams;
+package com.salahbkd.advanced.streams;
 
 public class Product implements Comparable<Product> {
 	private String name;

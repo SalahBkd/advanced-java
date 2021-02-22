@@ -1,3 +1,47 @@
+--exception handling
+    providing an alternate course of execution
+
+    we handle run-time errors
+
+    execution flow in try catch block, catch(ArithmeticException) -- catch(Exception)
+
+    we can have nested try-catch blocks
+
+    RunTimeException: something that happens at run-time, its not a must to catch it (unchecked)
+
+    Exception: MyException extends Exception, its a must to surround the code that throws MyException with try-catch (checked)
+
+    we can chain exceptions
+
+    best practices:
+        - do not use generic catch all exceptions
+        - use exception chaining to make handling consistent
+        - pay attention to the exception order in your catch block
+        - use checked exceptions whenever you can work arround the issue
+        - make sure you clean up resources with finally or try with resources
+
+    try with resources, the object must implement Closable interface, then if we put that object in TRY it will
+    automatically close up.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --Exceptions
 	chnahya ?
 		unwanted event (evenement exceptionnelle), katwqa3 fi l'execution dyal programme kat7bas

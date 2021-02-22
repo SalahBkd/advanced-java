@@ -1,7 +1,7 @@
 Intro:
 	working with threads is complex before java 5, java5 introduced high level abstractions 
 	that simplify building concurrent applications, with this abstractions we don't need
-	explicilty to work with threads, we focus on our tasks and let java handles threads 
+	explicitly to work with threads, we focus on our tasks and let java handles threads
 	manipulations.
 	
 Topics

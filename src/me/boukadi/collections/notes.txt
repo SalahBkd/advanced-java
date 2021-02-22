@@ -1,3 +1,15 @@
+--the need for collections
+    pre-collections: vector, array, hashtable
+
+    the problem with arrays: limited DS, don't have methods, they introduce Arrays class
+
+    the collections need:
+        position based access & sorting
+        uniqueness
+        retrieval mechanism, index and key based access
+        mutability
+        concurrency
+
 --Collection framework
 	The Collection in Java is a framework that provides an architecture to store and manipulate 
 	the group of objects.

@@ -1,4 +1,4 @@
-package me.boukadi.lambdas;
+package com.salahbkd.advanced.lambdas;
 
 import java.util.function.Function;
 
@@ -8,6 +8,8 @@ public class FunctionInterface {
 		Function<String, Integer> map = (str) -> str.length();
 		int result = map.apply("Hello!");
 		System.out.println(result);
+
+
 		
 		// composing functions
 		Function<String, String> replaceColon = (str) -> str.replace(":", "=");

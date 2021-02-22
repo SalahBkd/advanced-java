@@ -1,4 +1,4 @@
-package me.boukadi.collections;
+package com.salahbkd.advanced.collections;
 
 public class User implements Comparable<User> {
 	private String name;

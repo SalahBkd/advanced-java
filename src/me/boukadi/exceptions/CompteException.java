@@ -1,4 +1,4 @@
-package me.boukadi.exceptions;
+package com.salahbkd.advanced.exceptions;
 
 public class CompteException extends Exception {
 	public CompteException(Exception cause) {

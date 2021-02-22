@@ -1,4 +1,4 @@
-package me.boukadi.lambdas;
+package com.salahbkd.advanced.lambdas;
 
 public class TestConsumerInterface {
 

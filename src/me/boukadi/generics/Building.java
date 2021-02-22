@@ -1,4 +1,4 @@
-package me.boukadi.generics;
+package com.salahbkd.advanced.generics;
 
 public class Building {
 	private String name;

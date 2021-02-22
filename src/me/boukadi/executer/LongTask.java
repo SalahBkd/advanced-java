@@ -1,4 +1,4 @@
-package me.boukadi.executer;
+package com.salahbkd.advanced.executer;
 
 public class LongTask {
 

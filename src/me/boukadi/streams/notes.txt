@@ -24,8 +24,6 @@
 	we can filtre elements of a stream using filtre()	
 	(check out TestProduct.java)
 	
-	
-	
 --Slicing streams
 	we can slice a stream using these methods:
 		limit(), skip(), takeWhile(), dropWhile()

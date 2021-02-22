@@ -1,4 +1,4 @@
-package me.boukadi.generics;
+package com.salahbkd.advanced.generics;
 
 public class TestConstrainedGeneric {
 	public static void main(String[] args) {

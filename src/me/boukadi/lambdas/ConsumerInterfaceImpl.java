@@ -1,6 +1,7 @@
-package me.boukadi.lambdas;
+package com.salahbkd.advanced.lambdas;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -20,7 +21,7 @@ public class ConsumerInterfaceImpl {
 		list.forEach((item) -> System.out.println(item));
 		
 		// Chaining consumers
-		List<String> strings = new ArrayList<>();
+		List<String> strings = Arrays.asList("str1", "str2");
 		strings.add("test1");
 		strings.add("test2");
 		

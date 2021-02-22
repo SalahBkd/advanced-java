@@ -1,4 +1,4 @@
-package me.boukadi.generics;
+package com.salahbkd.advanced.generics;
 
 public class GenericClass<T> {
 	private T[] items = (T[]) new Object[10];

@@ -1,4 +1,4 @@
-package me.boukadi.concurrency;
+package com.salahbkd.advanced.concurrency;
 
 public class NotifyViaEmail implements Runnable {
 

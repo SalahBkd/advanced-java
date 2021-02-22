@@ -1,4 +1,4 @@
-package me.boukadi.lambdas;
+package com.salahbkd.advanced.lambdas;
 
 import java.util.function.Predicate;
 
@@ -9,9 +9,12 @@ public class PredicateInterface {
 		
 		boolean res1 = isGreaterThan5.and(isLesserThan10).test("salam.");
 		//res1 = isGreaterThan5.test("salam.");
-		
-		// we have AND (&&), NEGATE (!), OR (||) 
-		
+
+		// we have AND (&&), NEGATE (!), OR (||)
+		// isGreaterThan5.and(isLesserThan10);
+		// isLesserThan10.or(isLesserThan10));
+		// isGreaterThan5.negate(isLesserThan10);
+
 		System.out.println(res1);
 	}
 }
