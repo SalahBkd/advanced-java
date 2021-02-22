@@ -1,0 +1,57 @@
+--Exceptions
+	chnahya ?
+		unwanted event (evenement exceptionnelle), katwqa3 fi l'execution dyal programme kat7bas
+		l'execution dyal programme, ana ka developer khasni ngerehom (handling exceptions)
+	
+	error vs exception
+		error: chi haja critique w man9droch ndirolha handling, ex: stackoverflow error, 
+		out of memory error (Errors dyal JVM)
+		exception: nqadro ndirolha handling, try/catch (ex: FileNotFoundException)
+		
+--Types of exceptions
+		Checked
+			checked fi compile time, ex: FileNotFoundException
+			ila b4it ndir read lchi file w hwa makaynch compiler 4ay checki had lqadya fi
+			compilte-time w 4adi ygolna had block of code zqch khas ndiroh wast try/catch
+			
+		Unchecked
+			checked fi run-time kaywq3o because of programming erros, ex: NullPointerException, 
+			ArithmeticExpression
+		Error
+		
+		Throwable -> Exception (checked) -> RuntimeException (Unchecked) -> NullPointerException
+		
+--Handling exceptions
+	we can handle exceptions with TRY/CATCH block.
+	we can handle multiple exceptions with multiple CATCH blocks
+	
+	Example1:
+		catch(IOException e) {...}
+		catch(ParseException e)
+	
+	Example2:
+		catch (IOException | ParseException e) {..}
+	
+	the finally block
+		used to release external resources (connections..etc)
+	
+	the try-with-resource Statement
+		try(FileReader reader = new FileReader("file.txt")) {...}
+		
+		the reader object will be closed automatically if 'reader' implements the Autocloseable 
+		interface and when the try block is finished
+		 
+	throwing exceptions
+		void method() throws IOException {
+			throw new IOException()
+		}
+
+--Custom exceptions
+	used in frameworks and large entreprise applications.
+	(check out the src folder for code example)
+
+--Chaining exceptions
+	let's assume bli eadna bzaf dyal les exceptions li related la gestion dyal compte, 
+	SoldeMakafichException..etc n9adro ndiro class CompteException and we wrap it arround
+	other exceptions. (check out src folder for code example)
+	used also in building libraries and frameworks
